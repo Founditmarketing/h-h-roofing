@@ -101,7 +101,7 @@ module.exports = async (req, res) => {
     return res.end();
   }
 
-  const to   = process.env.CONTACT_TO_EMAIL   || "owen@founditmarketing.com";
+  const to   = process.env.CONTACT_TO_EMAIL   || "oherrera@handhroof.com";
   const from = process.env.CONTACT_FROM_EMAIL || "H&H Roofing <leads@handhroofingllc.com>";
 
   const subject = `New lead from handhroofingllc.com — ${name}`;
